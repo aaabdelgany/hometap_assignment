@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'home_owner_info.urls'
+ROOT_URLCONF = 'hc_assignment.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'home_owner_info.wsgi.application'
+WSGI_APPLICATION = 'hc_assignment.wsgi.application'
 
 
 # Database
