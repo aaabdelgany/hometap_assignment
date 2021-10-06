@@ -10,7 +10,7 @@ How To Run And Test This Project:
 1. Clone this repo
 2. Create a virtual environment: 'python -m venv venv' and activate it: 'source venv/bin/activate'
 3. Install all dependencies: pip install requirements.txt
-4. Run all migrations(not strictly necessary)
+4. Run all migrations(not strictly necessary) python3 manage.py migrat
 5. Run tests via the following command: python ./manage.py test
 6. Set up HouseCanary authentication by setting the environment variables below
    export HC_API_KEY="KEY"
