@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hc_assignment.urls'
+ROOT_URLCONF = 'ht_assignment.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hc_assignment.wsgi.application'
+WSGI_APPLICATION = 'ht_assignment.wsgi.application'
 
 
 # Database
