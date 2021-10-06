@@ -14,7 +14,6 @@ def _septic_check(address,zipcode):
     try:
         response = requests.request("GET", url,params=params, headers=headers,auth=(hc_user,hc_password))
         response=response.json()
-        print(response)
     
     except requests.ConnectionError:
         return {"error":"Connection Error!"}
