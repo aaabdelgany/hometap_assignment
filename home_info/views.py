@@ -1,17 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse,JsonResponse
-from django.views.decorators.csrf import ensure_csrf_cookie
-import json
+from django.http import JsonResponse
 from .utils import _septic_check
 
 
 
-#The below decorator was added to ensure that the csrf cookie would be set. This decision was
-# made in case the front end was a react app where any form may be dynamically generated
-# as opposed to a traditional template. Django may not set the csrf cookie on such pages.
-# The react app will need to grab the csrf cookie and add it to the header of the post 
-# request 
-# @ensure_csrf_cookie
 def septic_check(request):
     if request.method=="GET":
         address=request.GET.get('address')
