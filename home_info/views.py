@@ -24,6 +24,7 @@ def septic_check(request):
             return JsonResponse({
                 "septic":septic
             })
+            
         else:
             return JsonResponse({
                 "error":"There was an error while processing your request. Please try again later"
