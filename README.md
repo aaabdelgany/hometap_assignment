@@ -5,11 +5,11 @@ Failed requests to the external API due to connection issues or invalid authenti
 
 A Mock Postman server was set up to simulate a successful response to House Canary's property/details API endpoint. This was set up to test the parsing of a standard response from that endpoint due to a lack of valid credentials for HC's API.
 
-How To Run This Project:
+How To Run And Test This Project:
 
 1. Clone this repo
 2. Create a virtual environment: 'python -m venv venv' and activate it: 'source venv/bin/activate'
-3. Install all dependencies pip install requirements.txt
+3. Install all dependencies: pip install requirements.txt
 4. Run all migrations(not strictly necessary)
 5. Run tests via the following command: python ./manage.py test
 6. Set up HouseCanary authentication by setting the environment variables below
